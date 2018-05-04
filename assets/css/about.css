@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,800,900");
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/base\/_reset\.scss}line{font-family:\000033}}
+body, html { font-size: 100%; width: 100%; height: 100%; margin: 0; padding: 0; background: white; font-family: "Open Sans", sans-serif, "Roboto", sans-serif, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000313}}
+ul, ol { list-style-type: none; padding-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000317}}
+a, a:hover, a:focus { text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000320}}
+img { max-width: 100%; height: auto; -o-object-fit: cover; object-fit: cover; }
+
+/*----Supports_CrossBrowser-----*/
+@supports (scrool-behavior: smooth) AND (font-smoothing: antialised) { html, body { font-smoothing: antialised; overflow-y: scroll; -webkit-scroll-behavior: smooth; -moz-scroll-behavior: smooth; -ms-scroll-behavior: smooth; -o-scroll-behavior: smooth; scroll-behavior: smooth; } }
+@-webkit-keyframes scale_updown { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.07); transform: scale(1.07); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes scale_updown { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.07); transform: scale(1.07); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\000033}}
+.container-fluid { padding-right: 0 !important; padding-left: 0  !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\000037}}
+.nav-tabs { border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000310}}
+.nav-tabs .nav-link { border: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000313}}
+.nav-tabs > li > a { border: none; border-radius: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000317}}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { background: none; border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_overrides\.scss}line{font-family:\0000321}}
+.nav-link.active { background: none !important; }
+
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\000035}}
+.banner-top { min-height: 350px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000316}}
+#banner-solutions { background: -webkit-gradient(linear, left top, right top, from(rgba(20, 115, 230, 0.35)), to(rgba(20, 115, 230, 0.35))), url("../img/background/bg-chrono_banner.jpg") no-repeat center; background: linear-gradient(to right, rgba(20, 115, 230, 0.35), rgba(20, 115, 230, 0.35)), url("../img/background/bg-chrono_banner.jpg") no-repeat center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000329}}
+.banner-top h1 { font-size: 40px; color: white; padding-bottom: 5px; border-bottom: 3px solid currentColor; text-shadow: 1px 1px 1px #333333; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000337}}
+#main-footer, #time-line, #recrutement { padding: 15px 10px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000341}}
+#main-nav ul li, .espace-client, #recrutement .annonce_container { border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000344}}
+.more { position: relative; color: #1473e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000347}}
+.more::after { content: ''; position: absolute; bottom: 3px; left: 0; width: 0; height: 2px; background: currentColor; -webkit-transition: width 0.1s ease-in; transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000358}}
+.more:hover::after { width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000373}}
+.services_content--title { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000375}}
+.services_content--title > h2 { font-size: 30px; color: #1473e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000379}}
+.services_content--title > h3 { font-size: 22px; color: #77889f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000393}}
+.link_cta { width: 200px; height: 70px; background: #1473e6; padding: 1rem 0.5rem; color: white; border: 1px solid transparent; text-align: center; }
+
+/*styles des entete Title des section*/
+/*ELEMENTS*/
+/*MODIFIER */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003278}}
+.list-item--active { background: none; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003283}}
+.list-item--active:before { content: ''; background: url("../../assets/icone/check.svg") no-repeat center; background-size: 25px 25px; width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin-right: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\000032}}
+#back-to-top { display: inline-block; position: fixed; width: 100px; height: 50px; line-height: 50px; bottom: 0; left: -2%; z-index: 1000; background-color: white; border: 1px solid transparent; border-radius: 0 5px 5px 0; -webkit-box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.45); box-shadow: 2px 2px 4px rgba(51, 51, 51, 0.45); opacity: 0; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000317}}
+#back-to-top a { display: block; text-align: center; font-size: 1rem; color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000323}}
+#back-to-top.shown { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000326}}
+#back-to-top:hover, #back-to-top:focus { left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000329}}
+#back-to-top:hover a, #back-to-top:focus a { color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000341}}
+#nav-solutions { height: 65px; padding: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; z-index: 9999; -webkit-box-shadow: 0 1px 2px rgba(51, 51, 51, 0.45); box-shadow: 0 1px 2px rgba(51, 51, 51, 0.45); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000354}}
+#nav-solutions #nav-logiciels, #nav-solutions #nav-infra { width: 100%; height: 100%; margin-bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000362}}
+#nav-solutions #nav-logiciels li, #nav-solutions #nav-infra li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 8px; height: 100%; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000369}}
+#nav-solutions #nav-logiciels li:not(:last-child), #nav-solutions #nav-infra li:not(:last-child) { border-right: 1px solid #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000373}}
+#nav-solutions #nav-logiciels li a, #nav-solutions #nav-infra li a { color: #333333; font-weight: bold; font-size: 18px; line-height: 18px; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000379}}
+#nav-solutions #nav-logiciels li a span, #nav-solutions #nav-infra li a span { font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000384}}
+#nav-solutions #nav-logiciels li:hover, #nav-solutions #nav-logiciels li.active-nav, #nav-solutions #nav-infra li:hover, #nav-solutions #nav-infra li.active-nav { background: #2c317d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\0000386}}
+#nav-solutions #nav-logiciels li:hover a, #nav-solutions #nav-logiciels li.active-nav a, #nav-solutions #nav-infra li:hover a, #nav-solutions #nav-infra li.active-nav a { color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003104}}
+.services_content--title { margin-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_composants\.scss}line{font-family:\00003113}}
+.link_cta:hover, .link_cta:focus, .link_cta:active { background: white; border-color: currentColor; color: #1473e6; }
+
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\000035}}
+.banner-top { min-height: 350px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000316}}
+#banner-solutions { background: -webkit-gradient(linear, left top, right top, from(rgba(20, 115, 230, 0.35)), to(rgba(20, 115, 230, 0.35))), url("../img/background/bg-chrono_banner.jpg") no-repeat center; background: linear-gradient(to right, rgba(20, 115, 230, 0.35), rgba(20, 115, 230, 0.35)), url("../img/background/bg-chrono_banner.jpg") no-repeat center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000329}}
+.banner-top h1 { font-size: 40px; color: white; padding-bottom: 5px; border-bottom: 3px solid currentColor; text-shadow: 1px 1px 1px #333333; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000337}}
+#main-footer, #time-line, #recrutement { padding: 15px 10px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000341}}
+#main-nav ul li, .espace-client, #recrutement .annonce_container { border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000344}}
+.more { position: relative; color: #1473e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000347}}
+.more::after { content: ''; position: absolute; bottom: 3px; left: 0; width: 0; height: 2px; background: currentColor; -webkit-transition: width 0.1s ease-in; transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000358}}
+.more:hover::after { width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000373}}
+.services_content--title { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000375}}
+.services_content--title > h2 { font-size: 30px; color: #1473e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000379}}
+.services_content--title > h3 { font-size: 22px; color: #77889f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000393}}
+.link_cta { width: 200px; height: 70px; background: #1473e6; padding: 1rem 0.5rem; color: white; border: 1px solid transparent; text-align: center; }
+
+/*styles des entete Title des section*/
+/*ELEMENTS*/
+/*MODIFIER */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003278}}
+.list-item--active { background: none; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003283}}
+.list-item--active:before { content: ''; background: url("../../assets/icone/check.svg") no-repeat center; background-size: 25px 25px; width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin-right: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\000033}}
+#main-header { min-height: 100px; padding: 5px 0; top: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: white; -webkit-box-shadow: 0 1px 1px #eaf3ff, 0 2px 4px rgba(51, 51, 51, 0.55); box-shadow: 0 1px 1px #eaf3ff, 0 2px 4px rgba(51, 51, 51, 0.55); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000311}}
+#main-header.fixed-top { position: fixed; width: 100%; z-index: 999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000318}}
+#main-header .logo-brand img { width: 180px; max-width: 200px; height: auto; -o-object-fit: cover; object-fit: cover; margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000328}}
+#main-header #contact ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding-left: 0; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000333}}
+#main-header #contact ul li::before { content: ''; display: inline-block; width: 14px; height: 14px; background-size: 14px 14px; margin-right: 8px; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000341}}
+#main-header #contact ul li.tel-contact::before { background: url("../img/icon/tel-contact.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000346}}
+#main-header #contact ul li.mail-contact::before { background: url("../img/icon/mail-contact.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000351}}
+#main-header #contact ul a { color: #77889f; font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000363}}
+#main-nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000366}}
+#main-nav ul li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-flex: 2; -ms-flex: 2 0 auto; flex: 2 0 auto; margin: 0 5px; background-color: transparent; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000375}}
+#main-nav ul li.dropdown { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000377}}
+#main-nav ul li.dropdown .dropdown-menu { position: absolute; margin-top: 0; padding: 2px 0; color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000385}}
+#main-nav ul li a { display: block; color: #77889f; padding: 5px; font-size: 1rem; background: -webkit-gradient(linear, left top, right top, from(rgba(20, 115, 230, 0.5)), color-stop(50%, rgba(20, 115, 230, 0.5)), color-stop(50%, transparent), color-stop(50%, transparent)) no-repeat center; background: linear-gradient(to right, rgba(20, 115, 230, 0.5) 0%, rgba(20, 115, 230, 0.5) 50%, transparent 50%, transparent 50%) no-repeat center; background-size: 200% 100%; background-position: 100% 0; border-radius: 0 5px 5px 0; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000396}}
+#main-nav ul li a:first-letter { text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000399}}
+#main-nav ul li a.dropdown-item { margin: 4px 0; border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003104}}
+#main-nav ul li a:hover, #main-nav ul li a:focus, #main-nav ul li a.active-nav-item { color: white; background-position: 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003114}}
+.espace-client { width: 110px; line-height: 40px; background-color: #1473e6; border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003121}}
+.espace-client a { display: block; color: white; font-size: 14px; font-weight: 700; text-align: center; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003130}}
+.espace-client:hover, .espace-client:focus, .espace-client:active { background-color: white; border-color: #1473e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003133}}
+.espace-client:hover a, .espace-client:focus a, .espace-client:active a { color: #1473e6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003141}}
+#search-bar { width: 120px; height: 40px; -webkit-box-shadow: 0 0 0 2px #333333; box-shadow: 0 0 0 2px #333333; padding: 2px 2px; border-radius: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: width 0.1s ease-in; -moz-transition: width 0.1s ease-in; -ms-transition: width 0.1s ease-in; -o-transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003150}}
+#search-bar input[type="search"] { width: 75%; height: 35px; background: transparent !important; padding: 2px; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003158}}
+#search-bar button[type="submit"] { width: 30px; height: 30px; background-size: 30px 30px; background: url("../img/icon/loupe.svg") no-repeat center; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_header\.scss}line{font-family:\00003164}}
+#search-bar:focus-within, #search-bar.active-search { width: 180px; }
+
+@font-face { font-family: "Segoe UI"; src: url("../../fonts/segoeui.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\000035}}
+.banner-top { min-height: 350px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000316}}
+#banner-solutions { background: -webkit-gradient(linear, left top, right top, from(rgba(20, 115, 230, 0.35)), to(rgba(20, 115, 230, 0.35))), url("../img/background/bg-chrono_banner.jpg") no-repeat center; background: linear-gradient(to right, rgba(20, 115, 230, 0.35), rgba(20, 115, 230, 0.35)), url("../img/background/bg-chrono_banner.jpg") no-repeat center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000329}}
+.banner-top h1 { font-size: 40px; color: white; padding-bottom: 5px; border-bottom: 3px solid currentColor; text-shadow: 1px 1px 1px #333333; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000337}}
+#main-footer, #time-line, #recrutement { padding: 15px 10px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000341}}
+#main-nav ul li, .espace-client, #recrutement .annonce_container { border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000344}}
+.more { position: relative; color: #1473e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000347}}
+.more::after { content: ''; position: absolute; bottom: 3px; left: 0; width: 0; height: 2px; background: currentColor; -webkit-transition: width 0.1s ease-in; transition: width 0.1s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000358}}
+.more:hover::after { width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000373}}
+.services_content--title { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000375}}
+.services_content--title > h2 { font-size: 30px; color: #1473e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000379}}
+.services_content--title > h3 { font-size: 22px; color: #77889f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\0000393}}
+.link_cta { width: 200px; height: 70px; background: #1473e6; padding: 1rem 0.5rem; color: white; border: 1px solid transparent; text-align: center; }
+
+/*styles des entete Title des section*/
+/*ELEMENTS*/
+/*MODIFIER */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003278}}
+.list-item--active { background: none; border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/tools\/_placeholders\.scss}line{font-family:\00003283}}
+.list-item--active:before { content: ''; background: url("../../assets/icone/check.svg") no-repeat center; background-size: 25px 25px; width: 25px; height: 25px; display: inline-block; vertical-align: middle; margin-right: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\000033}}
+#main-footer { position: relative; padding-bottom: 5px; background: url("../img/aetia-geoloc.png") no-repeat right center, #1473e6; background-size: 35% 100%, 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000310}}
+#main-footer img { width: 170px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000315}}
+.main-footer_brand { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000319}}
+.main-footer_brand img { width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000322}}
+.main-footer_brand .sub-nav_container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-flex: 0; -ms-flex: 0 1 60%; flex: 0 1 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000325}}
+.main-footer_brand .sub-nav_container ul { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000328}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000330}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000333}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000337}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col li a { color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000339}}
+.main-footer_brand .sub-nav_container ul .sub-nav_col li a:hover { color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000347}}
+.main-footer_brand h2 { font-size: 30px; color: white; text-decoration: underline; margin-bottom: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000355}}
+.main-footer_social-network { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000357}}
+.main-footer_social-network nav, .main-footer_social-network ul { width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000362}}
+.main-footer_social-network .social-nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000365}}
+.main-footer_social-network .social-nav img { max-width: 80px; -webkit-filter: drop-shadow(1px 1px 2px #333333); filter: drop-shadow(1px 1px 2px #333333); -webkit-animation: scale_updown 1.5s 0.15s infinite ease-in-out; animation: scale_updown 1.5s 0.15s infinite ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000375}}
+.brand_coord { position: absolute; right: 10px; bottom: 15px; width: calc(33% - 20px); max-width: 500px; background: white; padding: 8px 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); box-shadow: 0 3px 6px rgba(51, 51, 51, 0.55); -webkit-perspective: 800px; perspective: 800px; -webkit-transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, -webkit-transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in; transition: all 0.3s ease-in-out 0.1s, transform 0.45s ease-in, -webkit-transform 0.45s ease-in; will-change: transform; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000389}}
+.brand_coord .brand_name { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000391}}
+.brand_coord .brand_name h2 { font-size: 16px; color: #1473e6; font-weight: bold; margin-bottom: 5px; line-height: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000398}}
+.brand_coord .brand_name span:first-of-type { font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003102}}
+.brand_coord .brand_adress { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003104}}
+.brand_coord .brand_adress ul { margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003106}}
+.brand_coord .brand_adress ul li { font-size: 12px; line-height: 1.15; color: #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003114}}
+.brand_coord .brand_contact { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003117}}
+.brand_coord .brand_contact a { color: #77889f; font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003124}}
+.brand_coord:hover, .brand_coord:focus, .brand_coord.active-coord { -webkit-transform: scale3d(1.025, 1.025, 1.025); -moz-transform: scale3d(1.025, 1.025, 1.025); -ms-transform: scale3d(1.025, 1.025, 1.025); -o-transform: scale3d(1.025, 1.025, 1.025); -webkit-perspective: 500px; perspective: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003134}}
+#sub-footer ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003136}}
+#sub-footer ul li { margin: 0 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003138}}
+#sub-footer ul li a { color: white; font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/layout\/_footer\.scss}line{font-family:\00003141}}
+#sub-footer ul li a .copyright { font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000319}}
+#time-line { background-color: rgba(51, 51, 102, 0.25); min-height: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000327}}
+#direction .persona-slider { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000330}}
+#direction .persona_container { position: relative; padding: 0.8rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000335}}
+#direction .persona_container .persona--thumbnails { max-width: 150px; height: 200px; overflow: hidden; border-radius: 50%; position: absolute; top: 0; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000344}}
+#direction .persona_container .persona--thumbnails img { -webkit-filter: grayscale(25%); filter: grayscale(25%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000355}}
+#recrutement .annonce-slider { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000358}}
+#recrutement .annonce_container { padding: 0.8rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: white; -webkit-box-shadow: -4px 0 0 #1473e6, 0 2px 2px rgba(51, 51, 51, 0.45), 0 0 4px #77889f; box-shadow: -4px 0 0 #1473e6, 0 2px 2px rgba(51, 51, 51, 0.45), 0 0 4px #77889f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000366}}
+#recrutement .annonce--header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000369}}
+#recrutement .annonce--header h2 { font-size: 1.5rem; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000374}}
+#recrutement .annonce--header .annonce--tag { max-width: 100px; height: 40px; line-height: 1; font-size: 18px; text-align: center; padding: 3px; background-color: #eaf3ff; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000387}}
+#recrutement .annonce--content p { margin: 1rem 0; line-height: 1.2; text-overflow: ellipsis; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000393}}
+#recrutement .annonce--bottom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\0000397}}
+#recrutement .annonce--bottom li { margin: 10px 0; font-size: 16px; color: #333333; text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003103}}
+#recrutement .annonce--bottom li:before { content: ' '; display: inline-block; width: 32px; height: 32px; background-size: 32px 32px; margin-right: 1rem; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003112}}
+#recrutement .annonce--bottom li:nth-of-type(1):before { background: url("../img/icon/contract.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003117}}
+#recrutement .annonce--bottom li:nth-of-type(2):before { background: url("../img/icon/date.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003122}}
+#recrutement .annonce--bottom li:nth-of-type(3):before { background: url("../img/icon/rent.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003128}}
+#recrutement .annonce--bottom .annonce_link { width: 50px; height: 50px; border-radius: 50%; background-color: #1473e6; color: white; font-size: 2rem; text-align: center; padding: 2px; -webkit-transform: translate3d(-50%, 0, -25px); transform: translate3d(-50%, 0, -25px); -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003139}}
+#recrutement .annonce--bottom .annonce_link:hover, #recrutement .annonce--bottom .annonce_link:active, #recrutement .annonce--bottom .annonce_link.active-link { background-color: white; color: #1473e6; -webkit-box-shadow: 0 3px 4px rgba(51, 51, 51, 0.25); box-shadow: 0 3px 4px rgba(51, 51, 51, 0.25); -webkit-transform: scale(1.08) translate3d(-50%, 0, 0); transform: scale(1.08) translate3d(-50%, 0, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003147}}
+#recrutement .cta_annonce { margin: 2rem auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 250px; height: 80px; padding: 0.5rem; border: 1px solid #1473e6; background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003158}}
+#recrutement .cta_annonce span { display: block; width: 50px; height: 50px; background-size: 50px 50px; background: url("../img/icon/hand-pointing.svg") no-repeat center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/notch\/Desktop\/dev\/aetia_main\/assets\/sass\/about\.scss}line{font-family:\00003173}}
+#recrutement .link_cta { width: auto; height: auto; font-size: 18px; color: #1473e6; padding: 0 0 3px 0 !important; background: none; border: none; }
+
+/*# sourceMappingURL=about.css.map */
