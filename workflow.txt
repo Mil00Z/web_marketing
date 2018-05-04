@@ -1,0 +1,26 @@
+git init dans le folder
+------
+git config --global 
+user.name " mon nom"
+user.mail "mon email"
+-------
+
+git add pour activer le suivi des fichiers
+git commit -m "mon commit"
+OU
+git commit -am "mon commit"
+
+git remote add origin URLPATHSERRVICE : sur le master
+username / password
+
+git push add origin : envoi les fichier à l'endroit décris comme origin
+
+git push -u origin master : envoi les fichier à l'endroit décris comme origin (ici master)
+
+git checkout -b "ma branche"
+git push origin ma branche : envoi les fichiers sur la branche dédiée
+
+--------
+git status pour checker les fichiers suivis, les erreurs
+git log pour checke l'historique des commit/push
+git diff pour checker les différences de fichiers
