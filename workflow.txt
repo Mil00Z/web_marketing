@@ -13,14 +13,16 @@ git commit -am "mon commit"
 git remote add origin URLPATHSERRVICE : sur le master
 username / password
 
-git push add origin : envoi les fichier à l'endroit décris comme origin
+git remote add (nom) (sourceUrl)
 
-git push -u origin master : envoi les fichier à l'endroit décris comme origin (ici master)
+git push add origin : envoi les fichier Ã  l'endroit dÃ©cris comme origin
+
+git push -u origin master : envoi les fichier Ã  l'endroit dÃ©cris comme origin (ici master)
 
 git checkout -b "ma branche"
-git push origin ma branche : envoi les fichiers sur la branche dédiée
+git push origin ma branche : envoi les fichiers sur la branche dÃ©diÃ©e
 
 --------
 git status pour checker les fichiers suivis, les erreurs
 git log pour checke l'historique des commit/push
-git diff pour checker les différences de fichiers
+git diff pour checker les diffÃ©rences de fichiers
